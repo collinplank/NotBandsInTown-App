@@ -8,3 +8,4 @@ struct NotBandsInTown_App: App {
         }
     }
 }
+

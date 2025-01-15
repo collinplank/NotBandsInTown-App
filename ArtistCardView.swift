@@ -17,22 +17,27 @@ struct ArtistCardView: View {
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle(tint: .blue))
             }
-
+            
             Text(artist.name)
                 .font(.headline)
                 .foregroundColor(.primary)
                 .multilineTextAlignment(.center)
                 .padding(.top, 10)
-
+            
             Text(artist.genre)
                 .font(.subheadline)
                 .foregroundColor(.secondary)
+                .padding(.top, 2)
+            
         }
         .padding()
-        .background(Color.white)
-        .cornerRadius(16)
-        .shadow(radius: 5)
+        .background(
+            RoundedRectangle(cornerRadius: 16)
+                .fill(Color.white)
+                .shadow(color: Color.black.opacity(0.1), radius: 6, x: 0, y: 4)
+        )
         .padding(.horizontal)
-        .frame(width: 160) 
+        .frame(width: 180)
     }
 }
+
