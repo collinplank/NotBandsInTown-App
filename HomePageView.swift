@@ -17,7 +17,11 @@ struct HomePageView: View {
                     HStack(spacing: 8) {
                         ForEach(0..<5, id: \.self) { index in
                             RoundedRectangle(cornerRadius: 2)
-                                .fill(Color.black)
+                                .fill(LinearGradient(
+                                    gradient: Gradient(colors: [.blue, .purple]),
+                                    startPoint: .top,
+                                    endPoint: .bottom
+                                ))
                                 .frame(width: 10, height: CGFloat(barHeights[index]))
                                 .animation(
                                     Animation.easeInOut(duration: 0.4).repeatForever(autoreverses: true)
@@ -79,7 +83,6 @@ struct HomePageView: View {
                             RoundedRectangle(cornerRadius: 16)
                                 .stroke(Color.black, lineWidth: 2)
                                 .frame(height: 140)
-                                .padding(.horizontal, 40)
 
                             VStack(spacing: 12) {
                                 if isLoggedIn {
@@ -126,7 +129,7 @@ struct HomePageView: View {
                                 }) {
                                     Text("Sign Up")
                                         .font(.system(size: 16, weight: .bold))
-                                        .padding(.vertical, 8) 
+                                        .padding(.vertical, 8)
                                         .frame(maxWidth: .infinity)
                                         .background(
                                             LinearGradient(
@@ -147,7 +150,7 @@ struct HomePageView: View {
 
                     Spacer()
                 }
-                .padding(.top, 40)
+                .padding(40)
             }
             .navigationBarHidden(true)
         }
