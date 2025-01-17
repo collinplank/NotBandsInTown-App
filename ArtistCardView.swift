@@ -33,18 +33,12 @@ struct ArtistCardView: View {
                     .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(.primary)
-                    .lineLimit(1)
+                    .lineLimit(2)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
             }
             .padding(.top, 8)
         }
-        .padding(16)
-        .background(
-            Color.white
-                .cornerRadius(16)
-                .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 4)
-        )
         .frame(width: 200)
         .padding(.horizontal)
     }
