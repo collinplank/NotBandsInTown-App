@@ -34,7 +34,7 @@ Welcome to the **Bandsintown Clone iPhone App**! This Swift and SwiftUI-based ap
 ---
 
 ## Future Enhancements
-- **SPush Notifications**: Alert users about new events for their favorite artists.
+- **Push Notifications**: Alert users about new events for their favorite artists.
 - **Advanced Filters**: Add options to filter events by location, date, and genre.
 - **Social Sharing**: Share events with friends directly from the app.
 
