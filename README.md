@@ -2,6 +2,8 @@
 
 Welcome to the **Bandsintown Clone iPhone App**! This Swift and SwiftUI-based application brings the power of live music discovery right to your iPhone. With a sleek and responsive design, this app is built for music enthusiasts to explore artists, discover live events, and curate a personalized list of favorites.
 
+I taught myself how to use **Swift** and **SwiftUI** specifically to develop this application, demonstrating my ability to quickly learn and apply new technologies to create a polished, user-friendly experience.
+
 ![Swift](https://img.shields.io/badge/Swift-5.7-orange) ![SwiftUI](https://img.shields.io/badge/SwiftUI-3.0-brightgreen) ![Xcode](https://img.shields.io/badge/Xcode-14.0-blue) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ---
@@ -37,6 +39,5 @@ Welcome to the **Bandsintown Clone iPhone App**! This Swift and SwiftUI-based ap
 - **Push Notifications**: Alert users about new events for their favorite artists.
 - **Advanced Filters**: Add options to filter events by location, date, and genre.
 - **Social Sharing**: Share events with friends directly from the app.
-
 
 
